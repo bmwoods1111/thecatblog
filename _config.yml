@@ -1,0 +1,21 @@
+title: "Welcome" 
+header-img: img/home-bg.jpg
+email: bmwoods@lcmail.lcsc.edu
+description:  # this means to ignore newlines until "baseurl:"
+  A blog about randomness!
+
+url: "http://yourdomain.com"
+
+twitter_username: SBootstrap
+email_username: bmwoods@lcmail.lcsc.edu 
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+
+exclude: ["less", "node_modules", "Gruntfile.js", "package_json", "README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
+plugins: [jekyll-feed]
